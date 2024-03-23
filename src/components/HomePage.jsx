@@ -108,7 +108,7 @@ export default function HomePage() {
 
               <button
                 onClick={() => {
-                  window.location.href = `/report/${item.name}`;
+                  window.location.href = "/home";
                 }}
               >
                 Show Report <AiOutlineEye />
