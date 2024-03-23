@@ -1,0 +1,71 @@
+.homepage {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.profile-section {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tracking-section {
+  flex: 2;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.attribute {
+  margin-bottom: 20px;
+}
+
+.attribute label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.attribute input {
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.attribute p {
+  margin: 5px 0;
+}
+
+.attribute button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.attribute button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li button {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
+
+li button:hover {
+  background-color: #bd2130;
+}
