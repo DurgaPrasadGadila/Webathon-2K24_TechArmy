@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
-    <div style={{ backgroundColor: "white" }}>
+    <div style={{ backgroundColor: "#F8F8F8" }}>
       <div
         className="container rounded-start mt-5 p-5 rounded-end "
         style={{ backgroundColor: "#F5F5F5" }}

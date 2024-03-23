@@ -5,7 +5,7 @@ import App from "./App";
 import Signup from "./components/Signup";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Login from "./components/Login"
+import Login from "./components/Login";
 import Stopwatch from "./components/Stopwatch";
 import ChestWorkout from "./components/ChestWorkout";
 
@@ -24,12 +24,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/stopwatch",
-    element: <Stopwatch />
+    element: <Stopwatch />,
   },
   {
     path: "/chestWorkout",
-    element: <ChestWorkout />
-  }
+    element: <ChestWorkout />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

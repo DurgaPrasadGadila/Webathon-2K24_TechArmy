@@ -36,6 +36,14 @@ export default function Navbar() {
                 Progress
               </a>
             </li>
+            <li
+              class="nav-item btn btn-primary btn-sm p-0"
+              style={{ marginLeft: "1000px" }}
+            >
+              <a class="nav-link fw-semibold text-white" href="/">
+                Sign out
+              </a>
+            </li>
             <li class="nav-item dropdown">
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">
